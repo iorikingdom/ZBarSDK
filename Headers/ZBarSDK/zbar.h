@@ -1484,15 +1484,15 @@ extern zbar_color_t zbar_scanner_get_color(const zbar_scanner_t *scanner);
     }
 }
 
-# include "zbar/Exception.h"
-# include "zbar/Decoder.h"
-# include "zbar/Scanner.h"
-# include "zbar/Symbol.h"
-# include "zbar/Image.h"
-# include "zbar/ImageScanner.h"
-# include "zbar/Video.h"
-# include "zbar/Window.h"
-# include "zbar/Processor.h"
+# include "Exception.h"
+# include "Decoder.h"
+# include "Scanner.h"
+# include "Symbol.h"
+# include "Image.h"
+# include "ImageScanner.h"
+# include "Video.h"
+# include "Window.h"
+# include "Processor.h"
 #endif
 
 #endif
