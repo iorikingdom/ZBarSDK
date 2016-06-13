@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "git@github.com:iorikingdom/ZBarSDK.git", :tag => s.version.to_s }
 
   s.vendored_libraries = 'libZBarSDK.a'
-  s.source_files = 'Headers/ZBarSDK/*.h,Headers/ZBarSDK/**/*.h'
+  s.source_files = 'Headers/ZBarSDK/**/*.h'
   s.resources = 'Resources/*'
   
   s.libraries = [
