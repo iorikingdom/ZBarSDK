@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
 
   s.vendored_libraries = 'libZBarSDK.a'
   s.source_files = 'Headers/**/*.h'
-
+  s.resources = 'Resources'
+  
   s.libraries = [
     'z',
     'c++',
